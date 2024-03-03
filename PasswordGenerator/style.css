@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("password.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .password {
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    background: black;
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    height: fit-content;
+    width: fit-content
+  }
+  
+  #password-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: black;
+    border: 2px solid white;
+    color: green;
+    height: 100px;
+    width: 200px;
+  }
+  
+  
